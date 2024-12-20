@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaska Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">Alaska Intelligence</a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#industries">Industries</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Data-Driven Insights for a Changing World</h1>
+            <p>Empowering businesses with actionable intelligence and strategic solutions.</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="grid">
+            <div class="card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data Analytics</h3>
+                <p>Advanced analysis and interpretation of complex data sets.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Cybersecurity</h3>
+                <p>Protecting your digital assets with robust security solutions.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-search"></i>
+                <h3>Market Research</h3>
+                <p>Understanding market trends and consumer behavior.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="solutions" class="section">
+        <h2>Our Solutions</h2>
+        <div class="grid">
+            <div class="card">
+                <i class="fas fa-chart-pie"></i>
+                <h3>Predictive Analytics</h3>
+                <p>Forecasting future trends and outcomes.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-user-secret"></i>
+                <h3>Risk Management</h3>
+                <p>Identifying and mitigating potential risks.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-globe"></i>
+                <h3>Global Intelligence</h3>
+                <p>Providing insights into global events and trends.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="industries" class="section">
+        <h2>Industries We Serve</h2>
+        <div class="grid">
+            <div class="card">Finance</div>
+            <div class="card">Government</div>
+            <div class="card">Healthcare</div>
+            <div class="card">Technology</div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>We are a team of experienced analysts and strategists dedicated to providing our clients with the insights they need to succeed. We leverage cutting-edge technology and proven methodologies to deliver actionable intelligence and strategic solutions.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Alaska Intelligence</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
